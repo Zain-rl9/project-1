@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+   justify-content:space-evenly;
+   background-color:#ccdeee5e;
+}
+.right{
+    display: inline-block;
+    font-size: 3.5rem;
+}
+.left{
+    display: contents;
+    padding-top: 10px;
+}
+ul >li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: black;
+}
+ul{
+    font-size: 1.8rem;
+}
+.top{
+    background-image: url(cover-image\ \(3\).png);
+    height: 80vh;
+}
+.higlit{
+    color: red;
+}
+.Welcome{
+    padding: 5%;
+    padding-left: 40%;
+}
+.poem >p{
+    font-weight: 600;
+
+}
+.poem{
+    width: 70%;
+    padding-left: 12%;
+}
+.buton{
+padding-left: 46%;
+margin-top: 4%;
+}
+.buton > button{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+.about >h1{
+   text-align: center;
+}
+.line{
+    height:2px;
+    width: 20%;
+    background: rgb(214, 30, 30);
+    margin-left: 40%;
+    margin-top: -12px;
+}
+#dot{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 4px;
+}
+.contaner{
+    display: flex;
+    margin-top: 4%;
+}
+#left{
+    display: inline-block;
+}
+.name{
+    display: inline;
+    background-color:#000000ad;
+    margin-left: -86%;
+    padding-top: 18%;
+    padding-left: 86%;
+    margin-top: -38%;
+}
+.tex >h1{
+    font-family:monospace;
+    margin-left: 45%;
+    margin-top: -22%;
+    color: white;
+}
+.nametop{
+    display:flex;
+    margin-top: 4%;
+    justify-content: space-evenly;
+}
+.nametop >img{
+    display: inline-block;
+    width: 10%;
+}
+#left >img{
+    padding-left: 5%;
+}
+#right{
+    display: inline-block;
+}
+#right >h1{
+    padding-left: 10%;
+}
+#right >p{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+#right >button{
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+}
+.slide{
+    margin-top: 3%;
+}
+.slide >img{
+    height: 30vh;
+    width: 100%;
+}
